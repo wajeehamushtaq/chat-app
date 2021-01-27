@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body {
+	font:11px 'Inter', sans-serif; 
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+}
+
+.btn{
+	color:rgb(177, 177, 177);
+	font-size: 25px;
+}
+.btn:hover{
+	color:rgb(207, 40, 152);
+	font-size: 25px;
+}
+
+.fa-ellipsis-v::before{
+	margin-left: 157px;
+}
+
+.dropbtn {
+	padding: 4px;
+	font-size: 16px;
+	border: none;
+  }
+  
+  .dropup {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropup-content {
+	display: none;
+	position: absolute;
+	min-width: 384px;
+	max-width: 100%;
+	bottom: 50px;
+	text-align: left;
+  }
+  
+  .dropup-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropup:hover .dropup-content {
+	display: block;
+  }
+ 
